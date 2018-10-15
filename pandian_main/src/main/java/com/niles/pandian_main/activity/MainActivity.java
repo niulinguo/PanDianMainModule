@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.niles.pandian_main.R;
 
-@Route(path = "/main/activity/main")
+@Route(path = "/pandian_main/activity/main")
 public class MainActivity extends AppCompatActivity {
 
     @Override

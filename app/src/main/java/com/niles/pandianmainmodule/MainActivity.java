@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ARouter.getInstance().build("/login/activity/splash").navigation();
+        ARouter.getInstance().build("/pandian_login/activity/splash").navigation();
         finish();
     }
 }
